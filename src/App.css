@@ -13,12 +13,12 @@ body {
   transition: transform 0.2s;
 }
 
-.image-container-hover {
+.image-container:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
 
-.image-container-hover .overlay {
+.image-container:hover .overlay {
   opacity: 1;
 }
 
